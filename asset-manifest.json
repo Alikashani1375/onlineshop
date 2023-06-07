@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/onlineshop/static/css/main.45ec2f1f.css",
+    "main.js": "/onlineshop/static/js/main.408ef11e.js",
+    "static/js/787.fd7a07ad.chunk.js": "/onlineshop/static/js/787.fd7a07ad.chunk.js",
+    "static/media/hero.png": "/onlineshop/static/media/hero.a4b5d0b477402e6b5dc9.png",
+    "static/media/Electronic.png": "/onlineshop/static/media/Electronic.2b462344c40685b08e16.png",
+    "static/media/skincare.png": "/onlineshop/static/media/skincare.6fafda36b93953b06ddb.png",
+    "static/media/fashion.png": "/onlineshop/static/media/fashion.902900ec823c8e3e5c7b.png",
+    "static/media/handsfree.png": "/onlineshop/static/media/handsfree.c56a216aefa8018402fc.png",
+    "static/media/shoe.png": "/onlineshop/static/media/shoe.753ffa9a88d34aa0988f.png",
+    "static/media/shirt.png": "/onlineshop/static/media/shirt.da99e971f1be6b111343.png",
+    "static/media/Shoes.png": "/onlineshop/static/media/Shoes.8e07e84ce28014eca71c.png",
+    "static/media/watch.png": "/onlineshop/static/media/watch.81b7130790378fabfde0.png",
+    "static/media/logo.svg": "/onlineshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/onlineshop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/onlineshop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/onlineshop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/onlineshop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/onlineshop/index.html",
+    "main.45ec2f1f.css.map": "/onlineshop/static/css/main.45ec2f1f.css.map",
+    "main.408ef11e.js.map": "/onlineshop/static/js/main.408ef11e.js.map",
+    "787.fd7a07ad.chunk.js.map": "/onlineshop/static/js/787.fd7a07ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ec2f1f.css",
+    "static/js/main.408ef11e.js"
+  ]
+}
