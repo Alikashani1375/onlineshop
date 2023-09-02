@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" mx-auto mt-40 flex w-10/12 items-start justify-start">
+    <div className="mx-auto mt-20 flex w-10/12 items-start justify-start pb-10">
       <div className="flex w-4/12 flex-col items-start justify-start">
         <div className="text-3xl font-bold">
           Ba<span style={{ color: "#3C9379" }}>chira</span>

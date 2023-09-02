@@ -1,28 +1,26 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Routes } from "react-router-dom";
 import TopMenu from "./components/TopMenu";
-import Hero from "./components/Hero";
-import Brands from "./components/Brands";
-import Categories from "./components/Categories";
-import Whychoose from "./components/Whychoose";
-import Products from "./components/Products";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Productpages from "./components/pages/Productpages";
 import Copyright from "./components/Copyright";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState } from "react";
+import Footer from "./components/Footer";
 function App() {
+  const [userloged, setUserloged] = useState(false);
   return (
-    <div className="App w-full">
-      <TopMenu />
-      <Hero />
-      <Brands />
-      <Categories />
-      <Whychoose />
-      <Products />
+    <div className="App w-full" id="bg">
+      <TopMenu userloged={userloged} setUserloged={setUserloged} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/onlineshop" element={<Home />} />
+        <Route path="/products" element={<Productpages />} />
+      </Routes>
       <Footer />
       <Copyright />
-      <Routes>{/* <Route path="/tlh" element={ <Choose /> } /> */}</Routes>
     </div>
   );
 }
